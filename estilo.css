@@ -1,0 +1,48 @@
+div { 
+  background:#f08408;
+  margin:8px;
+  padding:5px;
+  width:100%;
+}
+img {
+  width:150px;
+  height:auto;
+  display:block;
+  border-radius:50%;
+//  box-shadow:5px 5px #424242;
+  padding:10px;  //colchon para el borde
+  border:5px solid #424242;  //sustituye la sombra
+}
+.menu {
+  width:100%;
+  background:#ff0000;
+  list-style:none;
+  margin:0px;
+  padding:0px;
+}
+.menu li {
+  display:inline-block;
+}
+.menu li a {
+  display:inline-block;
+  color:#0b07f1;
+  padding: 10px 20px;
+}
+.menu li a:hover {
+  background:#fa6a6a;
+  color:#000;
+} 
+#f1{
+  background-image: url(fondos1.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: rgb(251, 255, 0);
+}
+#f2{
+  background-image: url(fondo7.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+  color: rgb(251, 255, 0);
+} 
